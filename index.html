@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Tip Calculator</title>
+        <!-- Style Sheet Reset, if needed
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+        -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="title-container">
+                <h1>spli</h1>
+                <h1>tter</h1>
+            </div>
+            <div class="bg-color">
+                <div class="data-container">
+                    <label for="bill-container">Bill</label>
+                    <div class="data-child" id="bill-container">
+                        <img src="images/icon-dollar.svg" alt="dollar icon">
+                        <input type="text">
+                    </div>
+                    <label for="tip-container">Select Tip %</label>
+                    <div class="button-container" id="tip-container">
+                        <button>5%</button>
+                        <button>10%</button>
+                        <button>15%</button>
+                        <button>25%</button>
+                        <button>50%</button>
+                        <button>Custom</button>
+                    </div>
+                    <label for="people-container">Number of People</label>
+                    <div class="data-child" id="people-container">
+                        <img src="images/icon-person.svg" alt="profile icon">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="display-container">
+                    <div class="display-child">
+                        <div class="display-label-container">
+                            <p>Tip Amount</p>
+                            <span>/ person</span>
+                        </div>
+                        <div class="value-display">$0.00</div>
+                    </div>
+                    <div class="display-child">
+                        <div class="display-label-container">
+                            <p>Total</p>
+                            <span>/ person</span>
+                        </div>
+                        <div class="value-display">$0.00</div>
+                    </div>
+                    <button>RESET</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
