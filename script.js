@@ -43,6 +43,7 @@ function removeErrorMessage() {
     errorMessage[1].style.display = "none";
     billInput.classList.remove('error');
     numOfPeople.classList.remove('error');
+    customInput.classList.remove('error');
     customError.style.display = "none";
     customInput.style.height = "100%";
 }

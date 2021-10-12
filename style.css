@@ -106,7 +106,7 @@ label {
     letter-spacing: 10px;
     font-size: 12px;
     color: hsl(183, 100%, 15%);
-    
+    /* border: 1px solid black; */
 }
 
 .bg-color {
@@ -168,6 +168,7 @@ button {
 .custom-input-container {
     display: flex;
     flex-direction: column;
+    padding: 0 1px;
     /* border: 1px solid black; */
 }
 
@@ -238,3 +239,52 @@ span {
     background-color: hsl(185, 41%, 84%);
 }
 
+@media only screen and (min-width: 1440px) {
+    .main-container {
+        width: 1440px;
+        height: 100vh;
+        min-height: 800px;
+        /* padding: 200px; */
+        background-color: hsl(185, 41%, 84%);
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title-container {
+        margin: 0;
+        font-size: 24px;
+        padding: 24px 0;
+    }
+
+    .bg-color {
+        width: 922px; 
+        background-color: white;
+        margin: 0;
+        padding: 1.5em;
+        display: flex;
+    }
+
+    .data-container {
+        width: 50%;
+        margin-right: 1.5em;
+    }
+
+    .display-container {
+        width: 50%;
+        padding: 2em 1.8em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .display-child {
+        margin-bottom: 2em;
+    }
+
+    .value-display {
+        font-size: 34px;
+    }
+}
