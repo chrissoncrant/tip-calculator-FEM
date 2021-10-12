@@ -96,7 +96,7 @@ label {
     width: 375px;
     margin: auto;
     background-color: hsl(185, 41%, 84%);
-    border-radius: 0 0 18px 18px;
+    border-radius: 18px;
 }
 
 .title-container {
@@ -255,7 +255,7 @@ span {
 
     .title-container {
         margin: 0;
-        font-size: 24px;
+        font-size: 20px;
         padding: 24px 0;
     }
 
@@ -263,7 +263,7 @@ span {
         width: 922px; 
         background-color: white;
         margin: 0;
-        padding: 1.5em;
+        padding: 1em;
         display: flex;
     }
 
@@ -274,7 +274,7 @@ span {
 
     .display-container {
         width: 50%;
-        padding: 2em 1.8em;
+        padding: 1.2em 1.8em;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
