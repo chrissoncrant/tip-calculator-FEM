@@ -123,6 +123,7 @@ label {
 
 .button-container {
     display: grid;
+    /* border: 1px solid black; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 0.5em;
@@ -132,6 +133,7 @@ label {
 
 button {
     padding: 8px 0.5em;
+    /* height: 80px; */
     font-family: 'Space Mono', monospace;
     font-size: 24px;
     font-weight: 700;
@@ -157,6 +159,31 @@ button {
     background-color: hsl(184, 11%, 49%);
     color: #f4f8fb;
 }
+
+.custom-container {
+    display: none;
+    height: 53px;
+}
+
+.custom-input-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.custom-error {
+    height: 25%;
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+    color: orangered;
+    display: none;
+}
+
+#custom-input {
+    height: 100%;
+}
+
 
 .display-container {
     padding: 2em 1em;
