@@ -48,6 +48,10 @@ input:focus-visible {
     outline-color: #5cc0a9;
 }
 
+.error:focus-visible {
+    outline-color: orangered;
+}
+
 #bill-input {
     background-image: url(images/icon-dollar.svg);
     background-repeat: no-repeat;
@@ -66,10 +70,22 @@ input:focus-visible {
     color:hsla(186, 14%, 56%, 0.767)
 }
 
+.label-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 label {
     font-size: 16px;
     color: hsl(184, 11%, 49%);
     font-weight: 700;
+}
+
+.error-message {
+    color: orangered;
+    display: none;
+    font-size: 12px;
 }
 
 .bd {
